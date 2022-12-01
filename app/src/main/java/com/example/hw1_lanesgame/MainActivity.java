@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity
     private void placing()
     {
         place++;
-        if(place == 2)
+        if(place == 3)
         {
             gameManager.getStone();
             place = 0;
