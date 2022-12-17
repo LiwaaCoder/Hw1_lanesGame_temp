@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Button btn_start_game = findViewById(R.id.btn_start_game);
-        GameActivity gameActivity = new GameActivity();
+        ButtonMode gameActivity = new ButtonMode();
 
         btn_start_game.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(MainActivity.this, GameActivity.class);
+                Intent myIntent = new Intent(MainActivity.this, ButtonMode.class);
                 MainActivity.this.startActivity(myIntent);
                 finish();
 

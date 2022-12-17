@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class GameActivity extends AppCompatActivity
+public class ButtonMode extends AppCompatActivity
 {
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -19,9 +19,6 @@ public class GameActivity extends AppCompatActivity
 
         final Button game_btn_right = findViewById(R.id.game_BTN_right);
         final Button game_btn_left = findViewById(R.id.game_BTN_left);
-        //final TextView main_TV_score = findViewById(R.id.game_TV_score);
-
-        //final int delay = 1000; // milisec
 
         GameManager gameManager = new GameManager(this);
 
